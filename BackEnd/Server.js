@@ -8,6 +8,8 @@ import roomRoutes from "./Routes/roomRoutes.js";
 dotenv.config();
 connectDB();
 
+
+
 const app = express();
 app.use(cors({ origin: "https://studyroom-chi.vercel.app/" }));
 app.use(express.json());
